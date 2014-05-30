@@ -2,7 +2,7 @@
 //  main.m
 //  MSBLocationManager
 //
-//  Created by 高橋 直人 on 2014/05/26.
+//  Created by misyobun on 2014/05/26.
 //  Copyright (c) 2014年 misyobun. All rights reserved.
 //
 

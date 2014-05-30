@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		25BACE6519386673009C4B0B /* GeoFake.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25BACE6419386673009C4B0B /* GeoFake.framework */; };
 		74B96E9B19324B32006A78A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74B96E9A19324B32006A78A3 /* Foundation.framework */; };
 		74B96E9D19324B32006A78A3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74B96E9C19324B32006A78A3 /* CoreGraphics.framework */; };
 		74B96E9F19324B32006A78A3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74B96E9E19324B32006A78A3 /* UIKit.framework */; };
@@ -21,6 +22,9 @@
 		74B96EBC19324B32006A78A3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74B96E9E19324B32006A78A3 /* UIKit.framework */; };
 		74B96EC419324B32006A78A3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 74B96EC219324B32006A78A3 /* InfoPlist.strings */; };
 		74B96EC619324B32006A78A3 /* MSBLocationManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B96EC519324B32006A78A3 /* MSBLocationManagerTests.m */; };
+		74B96ED219324BB7006A78A3 /* MSBLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B96ED119324BB7006A78A3 /* MSBLocationManager.m */; };
+		74B96ED619325C3A006A78A3 /* MSBLocateMotion.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B96ED519325C3A006A78A3 /* MSBLocateMotion.m */; };
+		74B96ED819327029006A78A3 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74B96ED719327029006A78A3 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		25BACE6419386673009C4B0B /* GeoFake.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GeoFake.framework; path = ../confirm/GeoFake/GeoFake.framework; sourceTree = "<group>"; };
 		74B96E9719324B32006A78A3 /* MSBLocationManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MSBLocationManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74B96E9A19324B32006A78A3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		74B96E9C19324B32006A78A3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +58,11 @@
 		74B96EC119324B32006A78A3 /* MSBLocationManagerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MSBLocationManagerTests-Info.plist"; sourceTree = "<group>"; };
 		74B96EC319324B32006A78A3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		74B96EC519324B32006A78A3 /* MSBLocationManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSBLocationManagerTests.m; sourceTree = "<group>"; };
+		74B96ED019324BB7006A78A3 /* MSBLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSBLocationManager.h; path = classes/MSBLocationManager.h; sourceTree = "<group>"; };
+		74B96ED119324BB7006A78A3 /* MSBLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MSBLocationManager.m; path = classes/MSBLocationManager.m; sourceTree = "<group>"; };
+		74B96ED419325C3A006A78A3 /* MSBLocateMotion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSBLocateMotion.h; path = classes/MSBLocateMotion.h; sourceTree = "<group>"; };
+		74B96ED519325C3A006A78A3 /* MSBLocateMotion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MSBLocateMotion.m; path = classes/MSBLocateMotion.m; sourceTree = "<group>"; };
+		74B96ED719327029006A78A3 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +70,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25BACE6519386673009C4B0B /* GeoFake.framework in Frameworks */,
 				74B96E9D19324B32006A78A3 /* CoreGraphics.framework in Frameworks */,
 				74B96E9F19324B32006A78A3 /* UIKit.framework in Frameworks */,
+				74B96ED819327029006A78A3 /* MapKit.framework in Frameworks */,
 				74B96E9B19324B32006A78A3 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -101,6 +113,8 @@
 		74B96E9919324B32006A78A3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				25BACE6419386673009C4B0B /* GeoFake.framework */,
+				74B96ED719327029006A78A3 /* MapKit.framework */,
 				74B96E9A19324B32006A78A3 /* Foundation.framework */,
 				74B96E9C19324B32006A78A3 /* CoreGraphics.framework */,
 				74B96E9E19324B32006A78A3 /* UIKit.framework */,
@@ -112,6 +126,7 @@
 		74B96EA019324B32006A78A3 /* MSBLocationManager */ = {
 			isa = PBXGroup;
 			children = (
+				74B96ECF19324B9A006A78A3 /* classes */,
 				74B96EA919324B32006A78A3 /* MSBAppDelegate.h */,
 				74B96EAA19324B32006A78A3 /* MSBAppDelegate.m */,
 				74B96EAC19324B32006A78A3 /* Main.storyboard */,
@@ -150,6 +165,17 @@
 				74B96EC219324B32006A78A3 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		74B96ECF19324B9A006A78A3 /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				74B96ED019324BB7006A78A3 /* MSBLocationManager.h */,
+				74B96ED119324BB7006A78A3 /* MSBLocationManager.m */,
+				74B96ED419325C3A006A78A3 /* MSBLocateMotion.h */,
+				74B96ED519325C3A006A78A3 /* MSBLocateMotion.m */,
+			);
+			name = classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,6 +226,17 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = misyobun;
 				TargetAttributes = {
+					74B96E9619324B32006A78A3 = {
+						DevelopmentTeam = M8G9M4S72X;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.iOS = {
+								enabled = 1;
+							};
+						};
+					};
 					74B96EB719324B32006A78A3 = {
 						TestTargetID = 74B96E9619324B32006A78A3;
 					};
@@ -251,7 +288,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				74B96EA719324B32006A78A3 /* main.m in Sources */,
+				74B96ED219324BB7006A78A3 /* MSBLocationManager.m in Sources */,
 				74B96EAB19324B32006A78A3 /* MSBAppDelegate.m in Sources */,
+				74B96ED619325C3A006A78A3 /* MSBLocateMotion.m in Sources */,
 				74B96EB119324B32006A78A3 /* MSBViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -318,6 +357,8 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Developer: naoto takahashi (6J35WJXA8S)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -356,6 +397,7 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: naoto takahashi (M8G9M4S72X)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
@@ -377,10 +419,22 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/takahashinaoto/Desktop/ios_app/GeoFake,
+					/Users/usr0600259/Desktop/confirm/GeoFake,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MSBLocationManager/MSBLocationManager-Prefix.pch";
 				INFOPLIST_FILE = "MSBLocationManager/MSBLocationManager-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjeC",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -390,10 +444,22 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/takahashinaoto/Desktop/ios_app/GeoFake,
+					/Users/usr0600259/Desktop/confirm/GeoFake,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MSBLocationManager/MSBLocationManager-Prefix.pch";
 				INFOPLIST_FILE = "MSBLocationManager/MSBLocationManager-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjeC",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -457,6 +523,7 @@
 				74B96ECB19324B32006A78A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		74B96ECC19324B32006A78A3 /* Build configuration list for PBXNativeTarget "MSBLocationManagerTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +532,7 @@
 				74B96ECE19324B32006A78A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

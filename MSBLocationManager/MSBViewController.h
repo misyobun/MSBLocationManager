@@ -2,12 +2,13 @@
 //  MSBViewController.h
 //  MSBLocationManager
 //
-//  Created by 高橋 直人 on 2014/05/26.
+//  Created by misyobun on 2014/05/26.
 //  Copyright (c) 2014年 misyobun. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
+#import <MapKit/MapKit.h>
 
-@interface MSBViewController : UIViewController
+@interface MSBViewController : UIViewController<MKMapViewDelegate>
 
 @end

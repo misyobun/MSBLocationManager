@@ -1,0 +1,251 @@
+TMSBLocationManager
+v6
+r1
+cCheck dependencies
+cCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist Build/Products/Debug-iphoneos/MSBLocationManager.app/ResourceRules.plist
+cProcessPCH /Users/usr0600259/Desktop/MSBLocationManager/Build/Intermediates/PrecompiledHeaders/MSBLocationManager-Prefix-dspuwiagrqzgmbdgshjgjubtyhpr/MSBLocationManager-Prefix.pch.pch MSBLocationManager/MSBLocationManager-Prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/MSBLocationManager.build/Debug-iphoneos/MSBLocationManager.build/Objects-normal/arm64/main.o /Users/usr0600259/Desktop/MSBLocationManager/MSBLocationManager/main.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/MSBLocationManager.build/Debug-iphoneos/MSBLocationManager.build/Objects-normal/arm64/MSBLocationManager.o /Users/usr0600259/Desktop/MSBLocationManager/MSBLocationManager/classes/MSBLocationManager.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/MSBLocationManager.build/Debug-iphoneos/MSBLocationManager.build/Objects-normal/arm64/MSBAppDelegate.o /Users/usr0600259/Desktop/MSBLocationManager/MSBLocationManager/MSBAppDelegate.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/MSBLocationManager.build/Debug-iphoneos/MSBLocationManager.build/Objects-normal/arm64/MSBLocateMotion.o /Users/usr0600259/Desktop/MSBLocationManager/MSBLocationManager/classes/MSBLocateMotion.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/MSBLocationManager.build/Debug-iphoneos/MSBLocationManager.build/Objects-normal/arm64/MSBViewController.o /Users/usr0600259/Desktop/MSBLocationManager/MSBLocationManager/MSBViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist
+c0000000053465DFE0000000000000096
+t1397120510
+s150
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/SDKSettings.plist
+c0000000053465DFE000000000000036B
+t1397120510
+s875
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/CoreServices/SystemVersion.plist
+c0000000053465DFE000000000000019E
+t1397120510
+s414
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/include/module.map
+c0000000053465E690000000000000ADC
+t1397120617
+s2780
+
+N/Users/usr0600259/Desktop/MSBLocationManager/Build/Intermediates/MSBLocationManager.build/Debug-iphoneos/MSBLocationManager.build/Objects-normal/arm64/MSBAppDelegate.o
+t2
+s0
+
+N/Users/usr0600259/Desktop/MSBLocationManager/Build/Intermediates/MSBLocationManager.build/Debug-iphoneos/MSBLocationManager.build/Objects-normal/arm64/MSBLocateMotion.o
+t2
+s0
+
+N/Users/usr0600259/Desktop/MSBLocationManager/Build/Intermediates/MSBLocationManager.build/Debug-iphoneos/MSBLocationManager.build/Objects-normal/arm64/MSBLocationManager.o
+t2
+s0
+
+N/Users/usr0600259/Desktop/MSBLocationManager/Build/Intermediates/MSBLocationManager.build/Debug-iphoneos/MSBLocationManager.build/Objects-normal/arm64/MSBViewController.o
+t2
+s0
+
+N/Users/usr0600259/Desktop/MSBLocationManager/Build/Intermediates/MSBLocationManager.build/Debug-iphoneos/MSBLocationManager.build/Objects-normal/arm64/main.o
+t2
+s0
+
+N/Users/usr0600259/Desktop/MSBLocationManager/Build/Intermediates/PrecompiledHeaders/MSBLocationManager-Prefix-dspuwiagrqzgmbdgshjgjubtyhpr/MSBLocationManager-Prefix.pch.pch
+t1401433734
+s117196
+
+N/Users/usr0600259/Desktop/MSBLocationManager/Build/Products/Debug-iphoneos/MSBLocationManager.app/ResourceRules.plist
+t2
+s0
+
+N/Users/usr0600259/Desktop/MSBLocationManager/MSBLocationManager/MSBAppDelegate.m
+c000000005384980000000000000007EB
+t1401198592
+s2027
+
+N/Users/usr0600259/Desktop/MSBLocationManager/MSBLocationManager/MSBLocationManager-Prefix.pch
+c00000000538213B20000000000000158
+t1401033650
+s344
+
+N/Users/usr0600259/Desktop/MSBLocationManager/MSBLocationManager/MSBViewController.m
+c000000005384989700000000000011D7
+t1401198743
+s4567
+
+N/Users/usr0600259/Desktop/MSBLocationManager/MSBLocationManager/classes/MSBLocateMotion.m
+c00000000538498000000000000000185
+t1401198592
+s389
+
+N/Users/usr0600259/Desktop/MSBLocationManager/MSBLocationManager/classes/MSBLocationManager.m
+c00000000538498000000000000001499
+t1401198592
+s5273
+
+N/Users/usr0600259/Desktop/MSBLocationManager/MSBLocationManager/main.m
+c00000000538498000000000000000162
+t1401198592
+s354
+
+CBuild AST from /Users/usr0600259/Desktop/MSBLocationManager/MSBLocationManager/MSBAppDelegate.m
+r0
+
+CBuild AST from /Users/usr0600259/Desktop/MSBLocationManager/MSBLocationManager/MSBViewController.m
+r0
+
+CBuild AST from /Users/usr0600259/Desktop/MSBLocationManager/MSBLocationManager/classes/MSBLocateMotion.m
+r0
+
+CBuild AST from /Users/usr0600259/Desktop/MSBLocationManager/MSBLocationManager/classes/MSBLocationManager.m
+r0
+
+CBuild AST from /Users/usr0600259/Desktop/MSBLocationManager/MSBLocationManager/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesba12e1046638b941^209bec046638b941^---0#1#1#--18"Check dependencies36"27D369C1-BCC7-44DC-8118-5C51D65B7BE2-
+
+CCodeSign /Users/usr0600259/Desktop/MSBLocationManager/Build/Products/Debug-iphoneos/MSBLocationManager.app
+r0
+
+CCompileAssetCatalog /Users/usr0600259/Desktop/MSBLocationManager/Build/Products/Debug-iphoneos/MSBLocationManager.app /Users/usr0600259/Desktop/MSBLocationManager/MSBLocationManager/Images.xcassets
+r0
+
+CCompileC Build/Intermediates/MSBLocationManager.build/Debug-iphoneos/MSBLocationManager.build/Objects-normal/arm64/MSBAppDelegate.o /Users/usr0600259/Desktop/MSBLocationManager/MSBLocationManager/MSBAppDelegate.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s423126534.036917
+e423126534.474201
+r1
+xCompileC
+xBuild/Intermediates/MSBLocationManager.build/Debug-iphoneos/MSBLocationManager.build/Objects-normal/arm64/MSBAppDelegate.o
+x/Users/usr0600259/Desktop/MSBLocationManager/MSBLocationManager/MSBAppDelegate.m
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/usr0600259/Desktop/MSBLocationManager/MSBLocationManager/MSBAppDelegate.m
+d/Users/usr0600259/Desktop/MSBLocationManager/MSBLocationManager/MSBAppDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Compile /Users/usr0600259/Desktop/MSBLocationManager/MSBLocationManager/MSBAppDelegate.m236"CompileC Build/Intermediates/MSBLocationManager.build/Debug-iphoneos/MSBLocationManager.build/Objects-normal/arm64/MSBAppDelegate.o MSBLocationManager/MSBAppDelegate.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler58e609066638b941^b26579066638b941^---0#0#1#-19%DVTDocumentLocation2@96"file://localhost/Users/usr0600259/Desktop/MSBLocationManager/MSBLocationManager/MSBAppDelegate.m0000000000000000^3941"CompileC Build/Intermediates/MSBLocationManager.build/Debug-iphoneos/MSBLocationManager.build/Objects-normal/arm64/MSBAppDelegate.o MSBLocationManager/MSBAppDelegate.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/usr0600259/Desktop/MSBLocationManager    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/usr0600259/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/usr0600259/Desktop/MSBLocationManager/Build/Intermediates/MSBLocationManager.build/Debug-iphoneos/MSBLocationManager.build/MSBLocationManager-generated-files.hmap -I/Users/usr0600259/Desktop/MSBLocationManager/Build/Intermediates/MSBLocationManager.build/Debug-iphoneos/MSBLocationManager.build/MSBLocationManager-own-target-headers.hmap -I/Users/usr0600259/Desktop/MSBLocationManager/Build/Intermediates/MSBLocationManager.build/Debug-iphoneos/MSBLocationManager.build/MSBLocationManager-all-target-headers.hmap -iquote /Users/usr0600259/Desktop/MSBLocationManager/Build/Intermediates/MSBLocationManager.build/Debug-iphoneos/MSBLocationManager.build/MSBLocationManager-project-headers.hmap -I/Users/usr0600259/Desktop/MSBLocationManager/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/usr0600259/Desktop/MSBLocationManager/Build/Intermediates/MSBLocationManager.build/Debug-iphoneos/MSBLocationManager.build/DerivedSources/arm64 -I/Users/usr0600259/Desktop/MSBLocationManager/Build/Intermediates/MSBLocationManager.build/Debug-iphoneos/MSBLocationManager.build/DerivedSources -F/Users/usr0600259/Desktop/MSBLocationManager/Build/Products/Debug-iphoneos -F/Users/takahashinaoto/Desktop/ios_app/GeoFake -include /Users/usr0600259/Desktop/MSBLocationManager/Build/Intermediates/PrecompiledHeaders/MSBLocationManager-Prefix-dspuwiagrqzgmbdgshjgjubtyhpr/MSBLocationManager-Prefix.pch -MMD -MT dependencies -MF /Users/usr0600259/Desktop/MSBLocationManager/Build/Intermediates/MSBLocationManager.build/Debug-iphoneos/MSBLocationManager.build/Objects-normal/arm64/MSBAppDelegate.d --serialize-diagnostics /Users/usr0600259/Desktop/MSBLocationManager/Build/Intermediates/MSBLocationManager.build/Debug-iphoneos/MSBLocationManager.build/Objects-normal/arm64/MSBAppDelegate.dia -c /Users/usr0600259/Desktop/MSBLocationManager/MSBLocationManager/MSBAppDelegate.m -o /Users/usr0600259/Desktop/MSBLocationManager/Build/Intermediates/MSBLocationManager.build/Debug-iphoneos/MSBLocationManager.build/Objects-normal/arm64/MSBAppDelegate.o36"05A201F4-5195-42C8-8721-388EFAB3FF80-
+b59D171BF-C4A5-4523-B2B0-9D80D71A93AC
+
+CCompileC Build/Intermediates/MSBLocationManager.build/Debug-iphoneos/MSBLocationManager.build/Objects-normal/arm64/MSBLocateMotion.o /Users/usr0600259/Desktop/MSBLocationManager/MSBLocationManager/classes/MSBLocateMotion.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s423126534.036951
+e423126534.678557
+r1
+xCompileC
+xBuild/Intermediates/MSBLocationManager.build/Debug-iphoneos/MSBLocationManager.build/Objects-normal/arm64/MSBLocateMotion.o
+x/Users/usr0600259/Desktop/MSBLocationManager/MSBLocationManager/classes/MSBLocateMotion.m
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/usr0600259/Desktop/MSBLocationManager/MSBLocationManager/classes/MSBLocateMotion.m
+d/Users/usr0600259/Desktop/MSBLocationManager/MSBLocationManager/classes/MSBLocateMotion.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"Compile /Users/usr0600259/Desktop/MSBLocationManager/MSBLocationManager/classes/MSBLocateMotion.m246"CompileC Build/Intermediates/MSBLocationManager.build/Debug-iphoneos/MSBLocationManager.build/Objects-normal/arm64/MSBLocateMotion.o MSBLocationManager/classes/MSBLocateMotion.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler8ae609066638b941^240ab9066638b941^---0#0#1#-19%DVTDocumentLocation2@105"file://localhost/Users/usr0600259/Desktop/MSBLocationManager/MSBLocationManager/classes/MSBLocateMotion.m0000000000000000^3963"CompileC Build/Intermediates/MSBLocationManager.build/Debug-iphoneos/MSBLocationManager.build/Objects-normal/arm64/MSBLocateMotion.o MSBLocationManager/classes/MSBLocateMotion.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/usr0600259/Desktop/MSBLocationManager    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/usr0600259/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/usr0600259/Desktop/MSBLocationManager/Build/Intermediates/MSBLocationManager.build/Debug-iphoneos/MSBLocationManager.build/MSBLocationManager-generated-files.hmap -I/Users/usr0600259/Desktop/MSBLocationManager/Build/Intermediates/MSBLocationManager.build/Debug-iphoneos/MSBLocationManager.build/MSBLocationManager-own-target-headers.hmap -I/Users/usr0600259/Desktop/MSBLocationManager/Build/Intermediates/MSBLocationManager.build/Debug-iphoneos/MSBLocationManager.build/MSBLocationManager-all-target-headers.hmap -iquote /Users/usr0600259/Desktop/MSBLocationManager/Build/Intermediates/MSBLocationManager.build/Debug-iphoneos/MSBLocationManager.build/MSBLocationManager-project-headers.hmap -I/Users/usr0600259/Desktop/MSBLocationManager/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/usr0600259/Desktop/MSBLocationManager/Build/Intermediates/MSBLocationManager.build/Debug-iphoneos/MSBLocationManager.build/DerivedSources/arm64 -I/Users/usr0600259/Desktop/MSBLocationManager/Build/Intermediates/MSBLocationManager.build/Debug-iphoneos/MSBLocationManager.build/DerivedSources -F/Users/usr0600259/Desktop/MSBLocationManager/Build/Products/Debug-iphoneos -F/Users/takahashinaoto/Desktop/ios_app/GeoFake -include /Users/usr0600259/Desktop/MSBLocationManager/Build/Intermediates/PrecompiledHeaders/MSBLocationManager-Prefix-dspuwiagrqzgmbdgshjgjubtyhpr/MSBLocationManager-Prefix.pch -MMD -MT dependencies -MF /Users/usr0600259/Desktop/MSBLocationManager/Build/Intermediates/MSBLocationManager.build/Debug-iphoneos/MSBLocationManager.build/Objects-normal/arm64/MSBLocateMotion.d --serialize-diagnostics /Users/usr0600259/Desktop/MSBLocationManager/Build/Intermediates/MSBLocationManager.build/Debug-iphoneos/MSBLocationManager.build/Objects-normal/arm64/MSBLocateMotion.dia -c /Users/usr0600259/Desktop/MSBLocationManager/MSBLocationManager/classes/MSBLocateMotion.m -o /Users/usr0600259/Desktop/MSBLocationManager/Build/Intermediates/MSBLocationManager.build/Debug-iphoneos/MSBLocationManager.build/Objects-normal/arm64/MSBLocateMotion.o36"4639D724-7117-4187-84AD-6E5DC500217A-
+b59D171BF-C4A5-4523-B2B0-9D80D71A93AC
+
+CCompileC Build/Intermediates/MSBLocationManager.build/Debug-iphoneos/MSBLocationManager.build/Objects-normal/arm64/MSBLocationManager.o /Users/usr0600259/Desktop/MSBLocationManager/MSBLocationManager/classes/MSBLocationManager.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s423126534.036900
+e423126534.477260
+r0
+xCompileC
+xBuild/Intermediates/MSBLocationManager.build/Debug-iphoneos/MSBLocationManager.build/Objects-normal/arm64/MSBLocationManager.o
+x/Users/usr0600259/Desktop/MSBLocationManager/MSBLocationManager/classes/MSBLocationManager.m
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/usr0600259/Desktop/MSBLocationManager/MSBLocationManager/classes/MSBLocationManager.m:11:9: fatal error: 'GeoFake/GeoFake.h' file not found
+o#import <GeoFake/GeoFake.h>
+o        ^
+o1 error generated.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Compile /Users/usr0600259/Desktop/MSBLocationManager/MSBLocationManager/classes/MSBLocationManager.m252"CompileC Build/Intermediates/MSBLocationManager.build/Debug-iphoneos/MSBLocationManager.build/Objects-normal/arm64/MSBLocationManager.o MSBLocationManager/classes/MSBLocationManager.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compilerd2c209066638b941^41297a066638b941^-204"/Users/usr0600259/Desktop/MSBLocationManager/MSBLocationManager/classes/MSBLocationManager.m:11:9: fatal error: 'GeoFake/GeoFake.h' file not found#import <GeoFake/GeoFake.h>        ^1 error generated.1(36%IDEClangDiagnosticActivityLogMessage2@34"'GeoFake/GeoFake.h' file not found-423126534#18446744073709551615#0#-2#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@108"file://localhost/Users/usr0600259/Desktop/MSBLocationManager/MSBLocationManager/classes/MSBLocationManager.m0000000000000000^10#8#10#8#221#0#29"Lexical or Preprocessor Issue--0#0#1#-19%DVTDocumentLocation4@108"file://localhost/Users/usr0600259/Desktop/MSBLocationManager/MSBLocationManager/classes/MSBLocationManager.m0000000000000000^3981"CompileC Build/Intermediates/MSBLocationManager.build/Debug-iphoneos/MSBLocationManager.build/Objects-normal/arm64/MSBLocationManager.o MSBLocationManager/classes/MSBLocationManager.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/usr0600259/Desktop/MSBLocationManager    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/usr0600259/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/usr0600259/Desktop/MSBLocationManager/Build/Intermediates/MSBLocationManager.build/Debug-iphoneos/MSBLocationManager.build/MSBLocationManager-generated-files.hmap -I/Users/usr0600259/Desktop/MSBLocationManager/Build/Intermediates/MSBLocationManager.build/Debug-iphoneos/MSBLocationManager.build/MSBLocationManager-own-target-headers.hmap -I/Users/usr0600259/Desktop/MSBLocationManager/Build/Intermediates/MSBLocationManager.build/Debug-iphoneos/MSBLocationManager.build/MSBLocationManager-all-target-headers.hmap -iquote /Users/usr0600259/Desktop/MSBLocationManager/Build/Intermediates/MSBLocationManager.build/Debug-iphoneos/MSBLocationManager.build/MSBLocationManager-project-headers.hmap -I/Users/usr0600259/Desktop/MSBLocationManager/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/usr0600259/Desktop/MSBLocationManager/Build/Intermediates/MSBLocationManager.build/Debug-iphoneos/MSBLocationManager.build/DerivedSources/arm64 -I/Users/usr0600259/Desktop/MSBLocationManager/Build/Intermediates/MSBLocationManager.build/Debug-iphoneos/MSBLocationManager.build/DerivedSources -F/Users/usr0600259/Desktop/MSBLocationManager/Build/Products/Debug-iphoneos -F/Users/takahashinaoto/Desktop/ios_app/GeoFake -include /Users/usr0600259/Desktop/MSBLocationManager/Build/Intermediates/PrecompiledHeaders/MSBLocationManager-Prefix-dspuwiagrqzgmbdgshjgjubtyhpr/MSBLocationManager-Prefix.pch -MMD -MT dependencies -MF /Users/usr0600259/Desktop/MSBLocationManager/Build/Intermediates/MSBLocationManager.build/Debug-iphoneos/MSBLocationManager.build/Objects-normal/arm64/MSBLocationManager.d --serialize-diagnostics /Users/usr0600259/Desktop/MSBLocationManager/Build/Intermediates/MSBLocationManager.build/Debug-iphoneos/MSBLocationManager.build/Objects-normal/arm64/MSBLocationManager.dia -c /Users/usr0600259/Desktop/MSBLocationManager/MSBLocationManager/classes/MSBLocationManager.m -o /Users/usr0600259/Desktop/MSBLocationManager/Build/Intermediates/MSBLocationManager.build/Debug-iphoneos/MSBLocationManager.build/Objects-normal/arm64/MSBLocationManager.o36"BBD6B3E1-A1A7-4BF1-832F-96BAFB199A52-
+b59D171BF-C4A5-4523-B2B0-9D80D71A93AC
+
+CCompileC Build/Intermediates/MSBLocationManager.build/Debug-iphoneos/MSBLocationManager.build/Objects-normal/arm64/MSBViewController.o /Users/usr0600259/Desktop/MSBLocationManager/MSBLocationManager/MSBViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s423126534.038863
+e423126534.578394
+r1
+xCompileC
+xBuild/Intermediates/MSBLocationManager.build/Debug-iphoneos/MSBLocationManager.build/Objects-normal/arm64/MSBViewController.o
+x/Users/usr0600259/Desktop/MSBLocationManager/MSBLocationManager/MSBViewController.m
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/usr0600259/Desktop/MSBLocationManager/MSBLocationManager/MSBViewController.m
+d/Users/usr0600259/Desktop/MSBLocationManager/MSBLocationManager/MSBViewController.h
+d/Users/usr0600259/Desktop/MSBLocationManager/MSBLocationManager/classes/MSBLocationManager.h
+d/Users/usr0600259/Desktop/MSBLocationManager/MSBLocationManager/classes/MSBLocateMotion.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Compile /Users/usr0600259/Desktop/MSBLocationManager/MSBLocationManager/MSBViewController.m242"CompileC Build/Intermediates/MSBLocationManager.build/Debug-iphoneos/MSBLocationManager.build/Objects-normal/arm64/MSBViewController.o MSBLocationManager/MSBViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compilerba150a066638b941^6a1294066638b941^---0#0#1#-19%DVTDocumentLocation2@99"file://localhost/Users/usr0600259/Desktop/MSBLocationManager/MSBLocationManager/MSBViewController.m0000000000000000^3959"CompileC Build/Intermediates/MSBLocationManager.build/Debug-iphoneos/MSBLocationManager.build/Objects-normal/arm64/MSBViewController.o MSBLocationManager/MSBViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/usr0600259/Desktop/MSBLocationManager    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/usr0600259/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/usr0600259/Desktop/MSBLocationManager/Build/Intermediates/MSBLocationManager.build/Debug-iphoneos/MSBLocationManager.build/MSBLocationManager-generated-files.hmap -I/Users/usr0600259/Desktop/MSBLocationManager/Build/Intermediates/MSBLocationManager.build/Debug-iphoneos/MSBLocationManager.build/MSBLocationManager-own-target-headers.hmap -I/Users/usr0600259/Desktop/MSBLocationManager/Build/Intermediates/MSBLocationManager.build/Debug-iphoneos/MSBLocationManager.build/MSBLocationManager-all-target-headers.hmap -iquote /Users/usr0600259/Desktop/MSBLocationManager/Build/Intermediates/MSBLocationManager.build/Debug-iphoneos/MSBLocationManager.build/MSBLocationManager-project-headers.hmap -I/Users/usr0600259/Desktop/MSBLocationManager/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/usr0600259/Desktop/MSBLocationManager/Build/Intermediates/MSBLocationManager.build/Debug-iphoneos/MSBLocationManager.build/DerivedSources/arm64 -I/Users/usr0600259/Desktop/MSBLocationManager/Build/Intermediates/MSBLocationManager.build/Debug-iphoneos/MSBLocationManager.build/DerivedSources -F/Users/usr0600259/Desktop/MSBLocationManager/Build/Products/Debug-iphoneos -F/Users/takahashinaoto/Desktop/ios_app/GeoFake -include /Users/usr0600259/Desktop/MSBLocationManager/Build/Intermediates/PrecompiledHeaders/MSBLocationManager-Prefix-dspuwiagrqzgmbdgshjgjubtyhpr/MSBLocationManager-Prefix.pch -MMD -MT dependencies -MF /Users/usr0600259/Desktop/MSBLocationManager/Build/Intermediates/MSBLocationManager.build/Debug-iphoneos/MSBLocationManager.build/Objects-normal/arm64/MSBViewController.d --serialize-diagnostics /Users/usr0600259/Desktop/MSBLocationManager/Build/Intermediates/MSBLocationManager.build/Debug-iphoneos/MSBLocationManager.build/Objects-normal/arm64/MSBViewController.dia -c /Users/usr0600259/Desktop/MSBLocationManager/MSBLocationManager/MSBViewController.m -o /Users/usr0600259/Desktop/MSBLocationManager/Build/Intermediates/MSBLocationManager.build/Debug-iphoneos/MSBLocationManager.build/Objects-normal/arm64/MSBViewController.o36"21CBF0E2-07E7-4454-BBE6-8771C929A597-
+b59D171BF-C4A5-4523-B2B0-9D80D71A93AC
+
+CCompileC Build/Intermediates/MSBLocationManager.build/Debug-iphoneos/MSBLocationManager.build/Objects-normal/arm64/main.o /Users/usr0600259/Desktop/MSBLocationManager/MSBLocationManager/main.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s423126534.036885
+e423126534.211519
+r1
+xCompileC
+xBuild/Intermediates/MSBLocationManager.build/Debug-iphoneos/MSBLocationManager.build/Objects-normal/arm64/main.o
+x/Users/usr0600259/Desktop/MSBLocationManager/MSBLocationManager/main.m
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/usr0600259/Desktop/MSBLocationManager/MSBLocationManager/main.m
+d/Users/usr0600259/Desktop/MSBLocationManager/MSBLocationManager/MSBAppDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Compile /Users/usr0600259/Desktop/MSBLocationManager/MSBLocationManager/main.m216"CompileC Build/Intermediates/MSBLocationManager.build/Debug-iphoneos/MSBLocationManager.build/Objects-normal/arm64/main.o MSBLocationManager/main.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compilerb9c409066638b941^3e2636066638b941^---0#0#1#-19%DVTDocumentLocation2@86"file://localhost/Users/usr0600259/Desktop/MSBLocationManager/MSBLocationManager/main.m0000000000000000^3881"CompileC Build/Intermediates/MSBLocationManager.build/Debug-iphoneos/MSBLocationManager.build/Objects-normal/arm64/main.o MSBLocationManager/main.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/usr0600259/Desktop/MSBLocationManager    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/usr0600259/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/usr0600259/Desktop/MSBLocationManager/Build/Intermediates/MSBLocationManager.build/Debug-iphoneos/MSBLocationManager.build/MSBLocationManager-generated-files.hmap -I/Users/usr0600259/Desktop/MSBLocationManager/Build/Intermediates/MSBLocationManager.build/Debug-iphoneos/MSBLocationManager.build/MSBLocationManager-own-target-headers.hmap -I/Users/usr0600259/Desktop/MSBLocationManager/Build/Intermediates/MSBLocationManager.build/Debug-iphoneos/MSBLocationManager.build/MSBLocationManager-all-target-headers.hmap -iquote /Users/usr0600259/Desktop/MSBLocationManager/Build/Intermediates/MSBLocationManager.build/Debug-iphoneos/MSBLocationManager.build/MSBLocationManager-project-headers.hmap -I/Users/usr0600259/Desktop/MSBLocationManager/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/usr0600259/Desktop/MSBLocationManager/Build/Intermediates/MSBLocationManager.build/Debug-iphoneos/MSBLocationManager.build/DerivedSources/arm64 -I/Users/usr0600259/Desktop/MSBLocationManager/Build/Intermediates/MSBLocationManager.build/Debug-iphoneos/MSBLocationManager.build/DerivedSources -F/Users/usr0600259/Desktop/MSBLocationManager/Build/Products/Debug-iphoneos -F/Users/takahashinaoto/Desktop/ios_app/GeoFake -include /Users/usr0600259/Desktop/MSBLocationManager/Build/Intermediates/PrecompiledHeaders/MSBLocationManager-Prefix-dspuwiagrqzgmbdgshjgjubtyhpr/MSBLocationManager-Prefix.pch -MMD -MT dependencies -MF /Users/usr0600259/Desktop/MSBLocationManager/Build/Intermediates/MSBLocationManager.build/Debug-iphoneos/MSBLocationManager.build/Objects-normal/arm64/main.d --serialize-diagnostics /Users/usr0600259/Desktop/MSBLocationManager/Build/Intermediates/MSBLocationManager.build/Debug-iphoneos/MSBLocationManager.build/Objects-normal/arm64/main.dia -c /Users/usr0600259/Desktop/MSBLocationManager/MSBLocationManager/main.m -o /Users/usr0600259/Desktop/MSBLocationManager/Build/Intermediates/MSBLocationManager.build/Debug-iphoneos/MSBLocationManager.build/Objects-normal/arm64/main.o36"FB9D130F-2710-419F-823C-C15F6FB382B9-
+b59D171BF-C4A5-4523-B2B0-9D80D71A93AC
+
+CCompileStoryboard /Users/usr0600259/Desktop/MSBLocationManager/MSBLocationManager/Base.lproj/Main.storyboard
+r0
+
+CCopyStringsFile /Users/usr0600259/Desktop/MSBLocationManager/Build/Products/Debug-iphoneos/MSBLocationManager.app/en.lproj/InfoPlist.strings MSBLocationManager/en.lproj/InfoPlist.strings
+r0
+
+CCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist Build/Products/Debug-iphoneos/MSBLocationManager.app/ResourceRules.plist
+s423126532.926152
+e423126532.928992
+r1
+xCpResource
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist
+xBuild/Products/Debug-iphoneos/MSBLocationManager.app/ResourceRules.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Copy Build/Products/Debug-iphoneos/MSBLocationManager.app/ResourceRules.plist205"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist Build/Products/Debug-iphoneos/MSBLocationManager.app/ResourceRules.plist0a2bed046638b941^f4dded046638b941^---0#0#1#-19%DVTDocumentLocation2@133"file://localhost/Users/usr0600259/Desktop/MSBLocationManager/Build/Products/Debug-iphoneos/MSBLocationManager.app/ResourceRules.plist0038603cdeffdf42^778"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist Build/Products/Debug-iphoneos/MSBLocationManager.app/ResourceRules.plist    cd /Users/usr0600259/Desktop/MSBLocationManager    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist /Users/usr0600259/Desktop/MSBLocationManager/Build/Products/Debug-iphoneos/MSBLocationManager.app36"78DF88C1-4AD8-475D-9A60-F5DFCEC1E7BC-
+b59D171BF-C4A5-4523-B2B0-9D80D71A93AC
+
+CGenerateDSYMFile /Users/usr0600259/Desktop/MSBLocationManager/Build/Products/Debug-iphoneos/MSBLocationManager.app.dSYM /Users/usr0600259/Desktop/MSBLocationManager/Build/Products/Debug-iphoneos/MSBLocationManager.app/MSBLocationManager
+r0
+
+CLd /Users/usr0600259/Desktop/MSBLocationManager/Build/Products/Debug-iphoneos/MSBLocationManager.app/MSBLocationManager normal arm64
+r0
+
+CProcessInfoPlistFile /Users/usr0600259/Desktop/MSBLocationManager/Build/Products/Debug-iphoneos/MSBLocationManager.app/Info.plist /Users/usr0600259/Desktop/MSBLocationManager/MSBLocationManager/MSBLocationManager-Info.plist
+r0
+
+CProcessPCH /Users/usr0600259/Desktop/MSBLocationManager/Build/Intermediates/PrecompiledHeaders/MSBLocationManager-Prefix-dspuwiagrqzgmbdgshjgjubtyhpr/MSBLocationManager-Prefix.pch.pch MSBLocationManager/MSBLocationManager-Prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s423126532.938688
+e423126534.027740
+r1
+xProcessPCH
+x/Users/usr0600259/Desktop/MSBLocationManager/Build/Intermediates/PrecompiledHeaders/MSBLocationManager-Prefix-dspuwiagrqzgmbdgshjgjubtyhpr/MSBLocationManager-Prefix.pch.pch
+xMSBLocationManager/MSBLocationManager-Prefix.pch
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/usr0600259/Desktop/MSBLocationManager/MSBLocationManager/MSBLocationManager-Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Precompile MSBLocationManager/MSBLocationManager-Prefix.pch256"ProcessPCH Build/Intermediates/PrecompiledHeaders/MSBLocationManager-Prefix-dspuwiagrqzgmbdgshjgjubtyhpr/MSBLocationManager-Prefix.pch.pch MSBLocationManager/MSBLocationManager-Prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler0586f0046638b941^e31a07066638b941^---0#0#1#-19%DVTDocumentLocation2@109"file://localhost/Users/usr0600259/Desktop/MSBLocationManager/MSBLocationManager/MSBLocationManager-Prefix.pch0000000000000000^3814"ProcessPCH Build/Intermediates/PrecompiledHeaders/MSBLocationManager-Prefix-dspuwiagrqzgmbdgshjgjubtyhpr/MSBLocationManager-Prefix.pch.pch MSBLocationManager/MSBLocationManager-Prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/usr0600259/Desktop/MSBLocationManager    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/usr0600259/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/usr0600259/Desktop/MSBLocationManager/Build/Intermediates/MSBLocationManager.build/Debug-iphoneos/MSBLocationManager.build/MSBLocationManager-generated-files.hmap -I/Users/usr0600259/Desktop/MSBLocationManager/Build/Intermediates/MSBLocationManager.build/Debug-iphoneos/MSBLocationManager.build/MSBLocationManager-own-target-headers.hmap -I/Users/usr0600259/Desktop/MSBLocationManager/Build/Intermediates/MSBLocationManager.build/Debug-iphoneos/MSBLocationManager.build/MSBLocationManager-all-target-headers.hmap -iquote /Users/usr0600259/Desktop/MSBLocationManager/Build/Intermediates/MSBLocationManager.build/Debug-iphoneos/MSBLocationManager.build/MSBLocationManager-project-headers.hmap -I/Users/usr0600259/Desktop/MSBLocationManager/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/usr0600259/Desktop/MSBLocationManager/Build/Intermediates/MSBLocationManager.build/Debug-iphoneos/MSBLocationManager.build/DerivedSources/arm64 -I/Users/usr0600259/Desktop/MSBLocationManager/Build/Intermediates/MSBLocationManager.build/Debug-iphoneos/MSBLocationManager.build/DerivedSources -F/Users/usr0600259/Desktop/MSBLocationManager/Build/Products/Debug-iphoneos -F/Users/takahashinaoto/Desktop/ios_app/GeoFake --serialize-diagnostics /Users/usr0600259/Desktop/MSBLocationManager/Build/Intermediates/PrecompiledHeaders/MSBLocationManager-Prefix-dspuwiagrqzgmbdgshjgjubtyhpr/MSBLocationManager-Prefix.pch.dia -MMD -MT dependencies -MF /Users/usr0600259/Desktop/MSBLocationManager/Build/Intermediates/PrecompiledHeaders/MSBLocationManager-Prefix-dspuwiagrqzgmbdgshjgjubtyhpr/MSBLocationManager-Prefix.pch.d -c /Users/usr0600259/Desktop/MSBLocationManager/MSBLocationManager/MSBLocationManager-Prefix.pch -o /Users/usr0600259/Desktop/MSBLocationManager/Build/Intermediates/PrecompiledHeaders/MSBLocationManager-Prefix-dspuwiagrqzgmbdgshjgjubtyhpr/MSBLocationManager-Prefix.pch.pch36"0FC7F9DE-490A-4C3B-97E4-2EF23160DA4D-
+b59D171BF-C4A5-4523-B2B0-9D80D71A93AC
+
+CProcessPCH /Users/usr0600259/Library/Developer/Xcode/DerivedData/MSBLocationManager-geueuqjxsexotiftcepqxnkfobjd/Index/PrecompiledHeaders/MSBLocationManager-Prefix-edzfklhsxyeayzcjmwrwisbupplv_ast/MSBLocationManager-Prefix.pch.pch MSBLocationManager/MSBLocationManager-Prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist /Users/usr0600259/Desktop/MSBLocationManager/Build/Intermediates/MSBLocationManager.build/Debug-iphoneos/MSBLocationManager.build/MSBLocationManager.xcent
+r0
+
+CProcessProductPackaging /Users/usr0600259/Library/MobileDevice/Provisioning\ Profiles/CC2E7988-86FA-4D2C-A406-593A6A894412.mobileprovision /Users/usr0600259/Desktop/MSBLocationManager/Build/Products/Debug-iphoneos/MSBLocationManager.app/embedded.mobileprovision
+r0
+
+CTouch /Users/usr0600259/Desktop/MSBLocationManager/Build/Products/Debug-iphoneos/MSBLocationManager.app
+r0
+
