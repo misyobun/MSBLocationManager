@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		25BACE6519386673009C4B0B /* GeoFake.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25BACE6419386673009C4B0B /* GeoFake.framework */; };
 		74B96E9B19324B32006A78A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74B96E9A19324B32006A78A3 /* Foundation.framework */; };
 		74B96E9D19324B32006A78A3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74B96E9C19324B32006A78A3 /* CoreGraphics.framework */; };
 		74B96E9F19324B32006A78A3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74B96E9E19324B32006A78A3 /* UIKit.framework */; };
@@ -38,7 +37,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		25BACE6419386673009C4B0B /* GeoFake.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GeoFake.framework; path = ../confirm/GeoFake/GeoFake.framework; sourceTree = "<group>"; };
 		74B96E9719324B32006A78A3 /* MSBLocationManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MSBLocationManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74B96E9A19324B32006A78A3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		74B96E9C19324B32006A78A3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -70,7 +68,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				25BACE6519386673009C4B0B /* GeoFake.framework in Frameworks */,
 				74B96E9D19324B32006A78A3 /* CoreGraphics.framework in Frameworks */,
 				74B96E9F19324B32006A78A3 /* UIKit.framework in Frameworks */,
 				74B96ED819327029006A78A3 /* MapKit.framework in Frameworks */,
@@ -113,7 +110,6 @@
 		74B96E9919324B32006A78A3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				25BACE6419386673009C4B0B /* GeoFake.framework */,
 				74B96ED719327029006A78A3 /* MapKit.framework */,
 				74B96E9A19324B32006A78A3 /* Foundation.framework */,
 				74B96E9C19324B32006A78A3 /* CoreGraphics.framework */,
@@ -421,18 +417,10 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					/Users/takahashinaoto/Desktop/ios_app/GeoFake,
-					/Users/usr0600259/Desktop/confirm/GeoFake,
-				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MSBLocationManager/MSBLocationManager-Prefix.pch";
 				INFOPLIST_FILE = "MSBLocationManager/MSBLocationManager-Info.plist";
-				OTHER_LDFLAGS = (
-					"-ObjeC",
-					"-all_load",
-				);
+				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
@@ -446,18 +434,10 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					/Users/takahashinaoto/Desktop/ios_app/GeoFake,
-					/Users/usr0600259/Desktop/confirm/GeoFake,
-				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MSBLocationManager/MSBLocationManager-Prefix.pch";
 				INFOPLIST_FILE = "MSBLocationManager/MSBLocationManager-Info.plist";
-				OTHER_LDFLAGS = (
-					"-ObjeC",
-					"-all_load",
-				);
+				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
