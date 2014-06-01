@@ -8,28 +8,25 @@
 
 #import "MSBLocationManager.h"
 #import "MSBLocateMotion.h"
-#import <GeoFake/GeoFake.h>
 
 double const MSB_DEFAULT_DISTANCE = 100.0;
 double const MSB_DEFAULT_TIME     = 30.0;
 NSString *const MSB_DUMP_ALL_LOCATIONITEMS = @"dumpLocationItems";
 
 @interface MSBLocationManager()
+@property (strong,nonatomic)CLLocationManager        *locationManager;
 @property (strong,nonatomic)CMMotionActivityManager  *activityManager;
-@property (strong,nonatomic)CMMotionActivity		     *motionActivity;
+@property (weak,nonatomic)CMMotionActivity		     *motionActivity;
 @property (assign,nonatomic)BOOL                     deferredLocationUpdates;
 
 @end
 
 
-@implementation MSBLocationManager {
-    CLLocationManager        *_locationManager;
-}
+@implementation MSBLocationManager
 
 - (id)init :(CLActivityType)activityType distanceFilter:(CLLocationDistance)distanceFilter desiredAccuracy:(CLLocationAccuracy)desiredAccuracy {
     
     if (![CLLocationManager locationServicesEnabled]) {
-        NSLog(@"Exception occurs");
         [NSException raise:@"LocationServiceNotEnable" format:@"LocationServiceNotEnable"];
         return nil;
     }
@@ -57,21 +54,17 @@ NSString *const MSB_DUMP_ALL_LOCATIONITEMS = @"dumpLocationItems";
     [self registNotification];
     
     if (_locationManager) {
-    
-    #ifdef GEO_FAKE
-        [[GeoFake sharedFake] setLocationManager:_locationManager mapView:_mMkMapView];
-        [[GeoFake sharedFake] startUpdatingLocation];
-        [[GeoFake sharedFake] startUpdatingHeading];
-    #else
+        
         [_locationManager startUpdatingLocation];
         [_locationManager startUpdatingHeading];
-    #endif
         
     }
     
     if([CMMotionActivityManager isActivityAvailable]) {
-		[self startMotionActivity];
-	}
+		
+        [self startMotionActivity];
+	
+    }
 
 }
 
@@ -80,6 +73,7 @@ NSString *const MSB_DUMP_ALL_LOCATIONITEMS = @"dumpLocationItems";
     [self removeNotification];
     
     if (_locationManager) {
+        
         [_locationManager stopUpdatingLocation];
         [_locationItems removeAllObjects];
         _locationManager = nil;
@@ -158,23 +152,17 @@ NSString *const MSB_DUMP_ALL_LOCATIONITEMS = @"dumpLocationItems";
 #pragma mark - CoreMotion methods
 
 - (void)startMotionActivity {
-    NSLog(@"startMotionActivity");
     
     void (^motionHandler)(CMMotionActivity *activity) =
     ^void(CMMotionActivity *activity) {
       dispatch_async(dispatch_get_main_queue(), ^{
-          NSLog(@"MotionChanged");
           _motionActivity = activity;
       });
     };
     
-#ifdef GEO_FAKE
-    [[GeoFake sharedFake] startActivityUpdatesWithHandler:motionHandler];
-#else
     _activityManager = [[CMMotionActivityManager alloc] init];
     [_activityManager startActivityUpdatesToQueue:[NSOperationQueue mainQueue]
                                       withHandler:motionHandler];
-#endif
     
     
 }

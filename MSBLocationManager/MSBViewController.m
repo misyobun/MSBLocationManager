@@ -15,15 +15,13 @@
 @property(weak, nonatomic) IBOutlet MKMapView *mMapView;
 @property(strong,nonatomic) NSMutableArray     *locationItems;
 @property(nonatomic,copy) void (^UpdateLocations)(NSArray *locations);
+@property(strong,nonatomic) MSBLocationManager *msbLocationManger;
+@property(strong,nonatomic) MKPointAnnotation  *point;
+@property(assign,nonatomic) CLLocationCoordinate2D centerLocation;
+
 @end
 
-@implementation MSBViewController{
-    CLLocationCoordinate2D _centerLocation;
-    
-    MKPointAnnotation  *point;
-    MSBLocationManager *_msbLocationManger;
-}
-
+@implementation MSBViewController
 - (void)viewDidLoad
 {
     [super viewDidLoad];
@@ -75,15 +73,15 @@
         if(_locationItems && _locationItems.count > 0) {
             MSBLocateMotion *lastMotion = ((MSBLocateMotion *)_locationItems.lastObject);
             CLLocation *lastLocation   = ((MSBLocateMotion *)_locationItems.lastObject).location;
-            if (point) {
-                [_mMapView removeAnnotation:point];
+            if (_point) {
+                [_mMapView removeAnnotation:_point];
             }
-            point                             = [[MKPointAnnotation alloc] init];
-            point.coordinate                  = lastLocation.coordinate;
-            point.title                       = [self getActivityStat:lastMotion];
+            _point                             = [[MKPointAnnotation alloc] init];
+            _point.coordinate                  = lastLocation.coordinate;
+            _point.title                       = [self getActivityStat:lastMotion];
             
-            [_mMapView addAnnotation:point];
-            [_mMapView selectAnnotation:point animated:YES];
+            [_mMapView addAnnotation:_point];
+            [_mMapView selectAnnotation:_point animated:YES];
             [_mMapView setCenterCoordinate:lastLocation.coordinate animated:YES];
             
             
@@ -96,10 +94,6 @@
             
             MKPolyline *polyLine = [MKPolyline polylineWithCoordinates:coordinates count:_locationItems.count];
             [_mMapView addOverlay:polyLine level:MKOverlayLevelAboveRoads];
-            
-//            for (int index = 0; index < _locationItems.count; index++) {
-//                [_locationItems removeObjectAtIndex:0];
-//            }
             
         }
         
